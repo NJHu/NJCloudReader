@@ -1,0 +1,2 @@
+rootProject.name='NJCloudReader'
+include ':app'

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.github.njhu.njcloudreader.Banner.HomeBanner
+        android:id="@+id/home_banner"
+        android:background="#F00"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/banner_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </com.github.njhu.njcloudreader.Banner.HomeBanner>
+    <FrameLayout
+        android:background="#ddd"
+        android:layout_width="match_parent"
+        android:layout_height="44dp">
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_weight="1"
+        android:background="#e0e"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+    </FrameLayout>
+</LinearLayout>
